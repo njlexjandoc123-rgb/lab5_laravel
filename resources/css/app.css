@@ -1,0 +1,53 @@
+/* Custom Global Styles for Grade Portal System */
+:root {
+    --primary-navy: #1e293b;
+    --accent-blue: #2563eb;
+    --bg-light: #f8fafc;
+}
+
+body {
+    background-color: var(--bg-light);
+    font-family: 'Figtree', sans-serif;
+    color: #334155;
+}
+
+/* Custom Table Enhancements */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+th {
+    background-color: #f1f5f9;
+    color: #475569;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+tr:hover {
+    background-color: #f8fafc;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Custom Metric Cards Hover Effect */
+.metric-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom Alert & Button Styling */
+.btn-primary {
+    background-color: var(--primary-navy);
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0f172a;
+}
